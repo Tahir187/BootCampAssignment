@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2px;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+   border: 5px;
+    color: green;
+}
+
+.main_container{
+    display: flex;
+    gap: 2rem;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.item_1, .item_2{
+    height: 50vh;
+    width: 50vh;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 2px 2px 3px 2px;
+    background-color: cadetblue;
+}
+.item_2{
+    margin-right: 3rem;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+    /* Nav Bar section */
+    nav{
+        position: fixed;
+    }
+    /* Home section CSS */
+.home-image img{
+    height: 60vh;
+    width: 100%;
+}
+
+    /* About Sedction  */
+.main-container{
+    background-color:aliceblue;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 1rem;
+    word-spacing: 0.7rem;
+}
+
+.image-section img{
+    height: 40vh;
+    width: 100%;
+}
+
+.bio-section p{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 40vh;
+    width: 50vh;
+    margin-left: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}

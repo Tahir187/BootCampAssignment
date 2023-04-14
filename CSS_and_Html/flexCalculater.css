@@ -1,0 +1,23 @@
+
+.flex_container{
+    display: flex;
+    background-color:aliceblue;
+    height: 40vh;
+    padding: 3rem;
+    box-shadow: 0 0 4px  2px;
+}
+.flex_container input{
+    text-align: right;
+    padding: 6px;
+    width: 100%;
+    border: 1px red;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+button{
+    padding: 13px;
+    cursor: pointer;
+    background-color: rgb(83, 92, 92);
+    border: none;
+}
