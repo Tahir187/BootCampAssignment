@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome to my page</h1>
+    <form action="submit">
+        <p>text box</p>
+        <input type="text" name="name" size="30" value="Ali" maxlength="25">
+        <p>password field</p>
+        <input type="password" name="name" size="8" maxlength="8">
+        <p>hidden field</p>
+        <input type="hidden" name="name" value="ali">
+        <p>check box</p>
+        <input type="checkbox" name="check" value="Checked">
+        <p>radio button</p>
+        <input type="radio" name="radio" value="checked">Male
+        <input type="radio" name="radio" value="checked">Female
+        <p>text area</p>
+        <textarea name="text area" cols="30" rows="10">default text</textarea>
+        <p>select list</p>
+        <select name="name" size="1">
+            <option value="lahore">Lahore</option>
+            <option value="karachi">Karachi</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="multan">Multan</option>
+        </select>
+        <p>file field</p>
+        <input type="file" name="file-name">
+        <p>submit button</p>
+        <input type="submit" value="Submit">
+        <p>reset button</p>
+        <input type="reset" value="Reset">
+    </form>
+    <h1>Attributes of input tag in form </h1>
+    <p>accept </p>
+    <input type="file" accept=".jpg, png">
+    <p>autofocus </p>
+    <input type="text" autofocus>
+    <p>input mode</p>
+    <input type="text" inputmode="url"> <br>
+    <input type="text" inputmode="email"> <br>
+    <input type="text" inputmode="numeric">
+    <p>pattern</p>
+    <input name="username" id="username" pattern="[A-Za-z0-9]+">
+    <input type="submit">
+    <p>required</p>
+    Username: <input type="text" name="username" required>
+    <input type="submit">
+    <p>auto complete</p>
+    <input name="credit-card-number" id="credit-card-number" autocomplete="on">
+    <p>multiple</p>
+    <input type="file" multiple>
+    <p>download</p>
+    <a href="../6349bda0227671_WEB-1_LearnHTMLSync.pdf">download pdf</a>
+    <p>content edit able</p>
+    <div contenteditable="true">
+        this text can be edited by the user.
+    </div>
+    <p>read only</p>
+    <input type="text" id="sports" name="sports" value="cricket" readonly>
+    <p>hidden text</p>
+    <p hidden> this text is hidden</p>
+    <p>spell check</p>
+    <p contenteditable="true" spellcheck="true">my spellinng is checked</p>
+
+    <p>loading</p>
+    <img src="https://cdn.mysite.com/media/image/jpg" loading="lazy">
+
+    <p>poster</p>
+    <video src="./video.mp4" poster="./pexels-gianluca-grisenti-4215113.jpg" width="200"></video> <br> <br>
+
+    <input type="date" name="DoB"> <br> <br>
+    <input type="color" name="color"> <br> <br>
+    <input type="number" name="number">
+
+    <p>translate</p>
+    <footer>
+        <p translate="yes">printing works, Inc</p>
+    </footer>
+
+</body>
+
+</html>

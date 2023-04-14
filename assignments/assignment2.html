@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <fieldset>
+    <form>
+        <legend><h1>Registration Form</h1></legend>
+        
+        <input type="text" placeholder="Enter first name" required> <br> <br>
+        <input type="text" placeholder="Enter last name" required><br> <br>
+        <input type="email" placeholder="example@gmail.com" required> <br> <br>
+        <input type="password" placeholder="Enter your pssword"> <br> <br>
+        <input type="password" placeholder="Confirm password"> <br> <br>
+
+        <p>Select your gender</p>
+        <input type="radio" name="gender" value="male" id="male"> 
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label> <br> <br>
+
+        <label for="city">Select your city</label>
+        <select name="city" id="city">
+            <option value="karachi">Karachi</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="sukkur">Sukkur</option>
+            <option value="shikarpur">Shikarpur</option>
+        </select> <br> <br>
+
+        <label for="course">Chose your course</label> <br>
+        <input type="checkbox" name="html">
+        <label for="html">HTML5</label> <br>
+        <input type="checkbox" name="css">
+        <label for="html">CSS3</label> <br>       
+        <input type="checkbox" name="js">
+        <label for="html">JAVASCRIPT</label> <br> <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</fieldset>
+</body>
+</html>
